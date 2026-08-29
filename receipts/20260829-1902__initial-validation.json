@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "observed_at": "2026-08-29T19:02:17+09:00",
+  "target_commit": "d8fe516cc995d39b414d656d5d11090cc7e5e008",
+  "commands": [
+    "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+    "PYTHONPATH=src python3 -m openfapta.cli --model all",
+    "python3 -m compileall -q src tests",
+    "git diff --check"
+  ],
+  "results": {
+    "unit_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "cli_exit_code": 0,
+    "compileall_exit_code": 0,
+    "diff_check_exit_code": 0
+  },
+  "sha256": {
+    "src/openfapta/models.py": "78cf2ec3dd307d66837e08e723b39ec56236ff5012fa038b9497a5113d16ff13",
+    "tests/test_models.py": "ccddb753cb41861ca37a8e538692f35e26b971cfb2b26f831536c5aa2f94e0ec",
+    "README.md": "bf9b5958effe175bf6dcb829311bf1cca180e17f7dd14e5c99aafda98a086792"
+  },
+  "verified_scope": [
+    "期待、採掘中、観測済み、Last Orderの状態分離",
+    "未知benefitをUNPRICED_HI_Zとして保持",
+    "信仰が物理的強制停止を解除しない",
+    "FIAT可視量と物理作用量の分離",
+    "有限離散fixtureでのデータ処理不等式の例"
+  ],
+  "not_verified": [
+    "現実経済での景気効果",
+    "投資収益または金融商品の性能",
+    "神社清掃の現地物理測定",
+    "物理量子力学としての実装",
+    "FAPTA通貨または政策の成立"
+  ]
+}
+
