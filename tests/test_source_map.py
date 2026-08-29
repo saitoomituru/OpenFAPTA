@@ -35,8 +35,10 @@ class SourceMapTest(unittest.TestCase):
 
         required_ids = {source["id"] for source in self.data["sources"] if source["required"]}
         self.assertTrue(
-            {"manifest-agents", "manifest-japanese-register", "magi-three-position",
-             "magi-maxwell", "magi-uriel", "magi-raphael", "spheredos-contract"}
+            {"manifest-agents", "manifest-japanese-register",
+             "manifest-sphere-context-dimension-os", "magi-three-position",
+             "magi-core-explicit-profile", "magi-maxwell", "magi-uriel",
+             "magi-raphael", "spheredos-contract", "spheredos-pli-cli-boundary"}
             .issubset(required_ids)
         )
 
