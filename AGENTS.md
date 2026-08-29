@@ -16,11 +16,34 @@
 1. `README.md`
 2. `docs/philosophy/open-fapta-principles.ja.md`
 3. `docs/theory/toy-model-boundary.ja.md`
-4. `experiments/TEMPLATE.ja.md`
-5. 変更対象に最も近いcode、test、source台帳
+4. `docs/operations/development-governance.ja.md`
+5. `references/source-map.json`
+6. `experiments/TEMPLATE.ja.md`
+7. 変更対象に最も近いcode、test、source台帳
 
 ZeroRoomLab共通の主張・言語規約は、公開正本である
-`saitoomituru/ZeroRoomLab-manifest`を参照します。Manifest全文を複製しません。
+[ZeroRoomLab-manifest](https://github.com/saitoomituru/ZeroRoomLab-manifest)を参照します。
+[SphereOS-Atlantis](https://github.com/saitoomituru/SphereOS-Atlantis)のMAGI三方向監査と
+SphereOS Atlantis DOS実験は、監査手順と証憑境界の参照元です。正確なrevisionとpathは
+`references/source-map.json`を正本とし、外部文書全文を複製しません。
+
+リポジトリーへの所属、リンク、参照は、実装依存、変更権限、統合済みを意味しません。
+外部リポジトリーを変更する権限は、このファイルからは発生しません。
+
+## MAGI三方向監査
+
+- 意味・目的・未観測枝をMaxwell、事実・実装・検証可能性をUriel、構造・配置・境界をRaphaelとして独立に記録する
+- 多数決、平均化、都合のよい統合をせず、合意、相違、`UNKNOWN`、未搭載の意味を残す
+- 現在の解釈を過去時点の観測へ遡及しない
+- 必須sourceを解決できない場合は`SOURCE-BLOCK`として、監査済みを名乗らない
+- 実行方法、固定参照先、公開前後の二段監査は`docs/operations/development-governance.ja.md`に従う
+
+## User Gateと外部操作
+
+- commit、push、issue作成、公開、merge、他processの中断は別々の外部操作として扱う
+- ユーザーが明示していない外部操作を、実装や検査の成功から自動実行しない
+- 公開指示がある場合も、対象、branch、base revision、書込範囲、検査を先に固定する
+- 自動mergeと自動採用は禁止する。候補は`ADOPT / ADAPT / REJECT / UNKNOWN`で残す
 
 ## 棚
 
@@ -61,6 +84,7 @@ processed data  != new observation
 - 型ヒントと日本語docstringを付ける
 - `print`はCLI出力だけに限定する
 - testは`python3 -m unittest discover -s tests -v`
+- 外部参照表は`python3 scripts/validate_source_map.py`で構造検査する
 
 ## 文書と実験
 
@@ -69,6 +93,9 @@ processed data  != new observation
 - 外部資料はURL、取得日、使った主張を記録する
 - 過去資料への現在解釈を、過去時点の観測として遡及記録しない
 - 新しい実験は`[DRAFT]`から開始し、自動的にREADMEへ昇格しない
+- CLIの存在、起動、終了code、artifact、commit、push、CI、採用、mergeを別々の証拠として記録する
+- 生の実行記録と公開用に浄化したreceiptを分離し、秘密や個人情報を公開receiptへ載せない
+- 既存tool、Skill、Schema、fixtureを先に探索し、再利用・適応・新設の判断を記録する
 
 ## ライセンス
 

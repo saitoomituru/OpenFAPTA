@@ -105,6 +105,13 @@ PYTHONPATH=src python3 -m openfapta.cli --model all
 検証証憑はSphereOS-Atlantis DOS、哲学・主張境界はZeroRoomLab-manifestを参照しています。
 これらのリポジトリーをruntime依存として取り込みません。
 
+## 開発・監査導線
+
+自動開発、User Gate、MAGI三方向監査、DOS由来の証拠段階は
+[`docs/operations/development-governance.ja.md`](docs/operations/development-governance.ja.md)を参照してください。
+Manifest、MAGI Skill、SphereOS Atlantis DOS、OpenSourcePITETO、KUMA800の固定revisionは
+[`references/source-map.json`](references/source-map.json)にあり、CIで構造を検査します。
+
 ## ライセンス
 
 - code、Schema、CLI、test: [Apache License 2.0](LICENSE)

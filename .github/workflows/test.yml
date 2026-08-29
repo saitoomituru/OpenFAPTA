@@ -19,6 +19,8 @@ jobs:
         env:
           PYTHONPATH: src
         run: python3 -m unittest discover -s tests -v
+      - name: 固定外部参照表を検査
+        run: python3 scripts/validate_source_map.py
       - name: CLIを起動
         env:
           PYTHONPATH: src

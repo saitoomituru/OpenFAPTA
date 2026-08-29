@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-08-29T19:12:56+09:00",
+  "policy": {
+    "revision_rule": "公開済みの40桁commit SHAへ固定する",
+    "link_meaning": "参照であり、実装依存、統合、変更権限を意味しない",
+    "missing_required": "SOURCE-BLOCK"
+  },
+  "sources": [
+    {
+      "id": "manifest-agents",
+      "role": "required-governance",
+      "repository": "ZeroRoomLab-manifest",
+      "revision": "6ecc13273d9485e93ce57e8148f963723681bc6c",
+      "path": "AGENTS.md",
+      "public_url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/6ecc13273d9485e93ce57e8148f963723681bc6c/AGENTS.md",
+      "required": true
+    },
+    {
+      "id": "manifest-japanese-register",
+      "role": "required-language",
+      "repository": "ZeroRoomLab-manifest",
+      "revision": "6ecc13273d9485e93ce57e8148f963723681bc6c",
+      "path": "docs/operations/coding-ai-japanese-paraphrase-register.ja.md",
+      "public_url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/6ecc13273d9485e93ce57e8148f963723681bc6c/docs/operations/coding-ai-japanese-paraphrase-register.ja.md",
+      "required": true
+    },
+    {
+      "id": "manifest-context-ruler-audit",
+      "role": "required-audit",
+      "repository": "ZeroRoomLab-manifest",
+      "revision": "6ecc13273d9485e93ce57e8148f963723681bc6c",
+      "path": "docs/operations/context-ruler-and-causality-audit.ja.md",
+      "public_url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/6ecc13273d9485e93ce57e8148f963723681bc6c/docs/operations/context-ruler-and-causality-audit.ja.md",
+      "required": true
+    },
+    {
+      "id": "manifest-myth-purpose-audit",
+      "role": "required-audit",
+      "repository": "ZeroRoomLab-manifest",
+      "revision": "6ecc13273d9485e93ce57e8148f963723681bc6c",
+      "path": "docs/operations/myth-purpose-cross-engineering-audit.ja.md",
+      "public_url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/6ecc13273d9485e93ce57e8148f963723681bc6c/docs/operations/myth-purpose-cross-engineering-audit.ja.md",
+      "required": true
+    },
+    {
+      "id": "manifest-authority-serves-exploration",
+      "role": "required-purpose",
+      "repository": "ZeroRoomLab-manifest",
+      "revision": "6ecc13273d9485e93ce57e8148f963723681bc6c",
+      "path": "docs/philosophy/authority-serves-exploration.ja.md",
+      "public_url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/6ecc13273d9485e93ce57e8148f963723681bc6c/docs/philosophy/authority-serves-exploration.ja.md",
+      "required": true
+    },
+    {
+      "id": "atlantis-agents",
+      "role": "required-governance",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "AGENTS.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/AGENTS.md",
+      "required": true
+    },
+    {
+      "id": "magi-bundle",
+      "role": "required-magi",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "magi/0.2.1/bundle.json",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/magi/0.2.1/bundle.json",
+      "required": true
+    },
+    {
+      "id": "magi-temporal-policy",
+      "role": "required-magi",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "magi/0.2.1/oae-temporal-policy.json",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/magi/0.2.1/oae-temporal-policy.json",
+      "required": true
+    },
+    {
+      "id": "magi-three-position",
+      "role": "required-magi-skill",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "skills/run-magi-three-position-audit/SKILL.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/skills/run-magi-three-position-audit/SKILL.md",
+      "required": true
+    },
+    {
+      "id": "magi-maxwell",
+      "role": "required-magi-skill",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "skills/audit-with-maxwell/SKILL.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/skills/audit-with-maxwell/SKILL.md",
+      "required": true
+    },
+    {
+      "id": "magi-uriel",
+      "role": "required-magi-skill",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "skills/audit-with-uriel/SKILL.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/skills/audit-with-uriel/SKILL.md",
+      "required": true
+    },
+    {
+      "id": "magi-raphael",
+      "role": "required-magi-skill",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "skills/audit-with-raphael/SKILL.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/skills/audit-with-raphael/SKILL.md",
+      "required": true
+    },
+    {
+      "id": "spheredos-research",
+      "role": "required-dos-boundary",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "docs/research/2026-08-28-spheredos-m6xx-foldnic-hage-agent-orchestration-ja.md",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/docs/research/2026-08-28-spheredos-m6xx-foldnic-hage-agent-orchestration-ja.md",
+      "required": true
+    },
+    {
+      "id": "spheredos-contract",
+      "role": "required-dos-contract",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "experiments/m6xx-agent-orchestration/contract.json",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/experiments/m6xx-agent-orchestration/contract.json",
+      "required": true
+    },
+    {
+      "id": "spheredos-source-capsule",
+      "role": "required-dos-source-capsule",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "experiments/m6xx-agent-orchestration/source-capsule.json",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/experiments/m6xx-agent-orchestration/source-capsule.json",
+      "required": true
+    },
+    {
+      "id": "spheredos-stage0-receipt",
+      "role": "reference-dos-receipt",
+      "repository": "SphereOS-Atlantis",
+      "revision": "68e6ef167bcbbe6b551631912378b71a56b92e14",
+      "path": "experiments/m6xx-agent-orchestration/receipts/20260829-stage0-run-01.json",
+      "public_url": "https://github.com/saitoomituru/SphereOS-Atlantis/blob/68e6ef167bcbbe6b551631912378b71a56b92e14/experiments/m6xx-agent-orchestration/receipts/20260829-stage0-run-01.json",
+      "required": false
+    },
+    {
+      "id": "piteto-agents",
+      "role": "reference-experiment-governance",
+      "repository": "OpenSourcePITETO",
+      "revision": "8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f",
+      "path": "AGENTS.md",
+      "public_url": "https://github.com/saitoomituru/OpenSourcePITETO/blob/8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f/AGENTS.md",
+      "required": false
+    },
+    {
+      "id": "piteto-note-agents",
+      "role": "reference-experiment-governance",
+      "repository": "OpenSourcePITETO",
+      "revision": "8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f",
+      "path": "note/AGENTS.md",
+      "public_url": "https://github.com/saitoomituru/OpenSourcePITETO/blob/8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f/note/AGENTS.md",
+      "required": false
+    },
+    {
+      "id": "piteto-note-template",
+      "role": "reference-experiment-template",
+      "repository": "OpenSourcePITETO",
+      "revision": "8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f",
+      "path": "note/TEMPLATE.ja.md",
+      "public_url": "https://github.com/saitoomituru/OpenSourcePITETO/blob/8fb23031d9d4b1b4ae6ac134e3d6f52194a56a9f/note/TEMPLATE.ja.md",
+      "required": false
+    },
+    {
+      "id": "kuma800-agents",
+      "role": "reference-provenance-governance",
+      "repository": "KUMA800",
+      "revision": "5bc455ce57b463017080584b972247bdd78f9974",
+      "path": "AGENTS.md",
+      "public_url": "https://github.com/saitoomituru/KUMA800/blob/5bc455ce57b463017080584b972247bdd78f9974/AGENTS.md",
+      "required": false
+    }
+  ]
+}
