@@ -75,3 +75,15 @@ observed result      -> evidence
 
 信仰が終了したときは`LAST_ORDER`へ遷移する。Last Orderは観測されなかったbenefitをゼロへ更新せず、
 現在の探索配分を止める。これにより、期待を無限継続する事故と、途中終了を不存在証明にする事故を同時に避ける。
+
+## 6. 起動動機と工学事実
+
+この初期実験では、利用者の信仰が探索依頼を発動し、Codexがcodeへ写像し、Python interpreterとtest runnerが
+fixtureを実行した。次は別の主張である。
+
+1. 利用者がbenefitを信じて探索を依頼した: 発話と対話履歴に基づくInitiator／beliefの事実
+2. codeが指定入力を演算し、11試験を通過した: receiptで追跡できるLayer A工学事実
+3. 未知benefitを保持する設計が現実経済を改善する: 未検証仮説
+
+入力動機が信仰であることは2を信仰へ変換しない。2が成立したことも3を自動証明しない。
+証拠資格は動機の社会的分類ではなく、対象scope、protocol、実行、観測、receiptで判定する。
