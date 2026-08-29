@@ -85,6 +85,7 @@ processed data  != new observation
 - `print`はCLI出力だけに限定する
 - testは`python3 -m unittest discover -s tests -v`
 - 外部参照表は`python3 scripts/validate_source_map.py`で構造検査する
+- 公開Note索引は`python3 scripts/validate_note_index.py`で構造検査する
 
 ## 文書と実験
 

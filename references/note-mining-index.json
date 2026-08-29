@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-08-29T19:35:00+09:00",
+  "profile": "https://note.com/fusamofu326",
+  "author_display_name": "ふさもふ",
+  "public_catalog_count_observed": 51,
+  "backup_level": "metadata-summary-fingerprint",
+  "body_fingerprint": "公開APIのbody文字列UTF-8 bytesに対するSHA-256。本文そのものの保存ではない",
+  "articles": [
+    {
+      "key": "nbc4d3e3d266d",
+      "title": "第1回「この地球、いつの間にPvPになってね？」",
+      "published_at": "2026-05-25T10:55:41.000+09:00",
+      "url": "https://note.com/fusamofu326/n/nbc4d3e3d266d",
+      "body_sha256": "b326cc15258000fc08b43aab264e17f4331e8571530f916318978b2050b5d564",
+      "related_issues": [2, 3],
+      "evidence_relation": "composite"
+    },
+    {
+      "key": "na0f3f8a3bd2d",
+      "title": "第2回「貨幣は情報の死体である」",
+      "published_at": "2026-05-25T11:00:29.000+09:00",
+      "url": "https://note.com/fusamofu326/n/na0f3f8a3bd2d",
+      "body_sha256": "c7d4e1450d5d282f7a6c89de443f19d14db7abb9a1eede370cce1eab42d7d967",
+      "related_issues": [3, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "nc5bd7119cf8e",
+      "title": "第3回「たった一行でSDGsを半分殴り倒す」",
+      "published_at": "2026-05-25T11:04:33.000+09:00",
+      "url": "https://note.com/fusamofu326/n/nc5bd7119cf8e",
+      "body_sha256": "ef9bc90ea793f51e9db7f5f0d55b8a0beb0645858a2a88c4e2aa39bfe22e9f3d",
+      "related_issues": [1, 2, 3, 4, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "n9698c6259109",
+      "title": "12年前のガラクタで、AI研究所を作った話",
+      "published_at": "2026-05-25T20:43:08.000+09:00",
+      "url": "https://note.com/fusamofu326/n/n9698c6259109",
+      "body_sha256": "037bbd7d377ec1e3ca38517bd3fb99c37caba69debf92ea09b613bec935f2ac8",
+      "related_issues": [1, 2, 3, 4, 5],
+      "evidence_relation": "direct"
+    },
+    {
+      "key": "nccf10b72d6a0",
+      "title": "「量子」という言葉は盗まれた——工学は形而上学と接続する、だから情報子工学が必要だ",
+      "published_at": "2026-06-01T08:25:30.000+09:00",
+      "url": "https://note.com/fusamofu326/n/nccf10b72d6a0",
+      "body_sha256": "b17d767d075e76893b95c28630c91bf874582c54f8f113c10ba21da891a7d18c",
+      "related_issues": [6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "nfc160cfbd0d2",
+      "title": "第1講「数とは何か——宇宙記述言語の系譜」",
+      "published_at": "2026-06-05T17:58:33.000+09:00",
+      "url": "https://note.com/fusamofu326/n/nfc160cfbd0d2",
+      "body_sha256": "34a951bf0d8b9d5577c70584799dbd91dfd4efcd047b7a5c3df45ae7c0e7f309",
+      "related_issues": [4, 5, 6],
+      "evidence_relation": "composite"
+    },
+    {
+      "key": "n355d83cfd36f",
+      "title": "マリオカートツアーのゲーム理論で見る競争社会と福祉講座",
+      "published_at": "2026-06-17T22:41:49.000+09:00",
+      "url": "https://note.com/fusamofu326/n/n355d83cfd36f",
+      "body_sha256": "1b2d21289c224379ff2e90965f62c0322bb377a1100e46b2b89217b4fbbfb628",
+      "related_issues": [1, 2, 3, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "n1bda68a016e2",
+      "title": "天岩戸が毎日起きる家から見る世界史——縄文型家計と弥生型家計、そして国譲り後世代の迷子たちへ",
+      "published_at": "2026-06-26T19:58:32.000+09:00",
+      "url": "https://note.com/fusamofu326/n/n1bda68a016e2",
+      "body_sha256": "48f505fb1444657029806aefaf5b56f9178f3052406bd074d425309305a5beb1",
+      "related_issues": [2, 5, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "n480909aaedfc",
+      "title": "最強単一モデルでクソUXより ── マルチエージェント・複数ヒューマン・アクチュエータを情報子工学単位という生態系でエンジニアリングする、AI時代の生産性と幸福の工学",
+      "published_at": "2026-08-03T23:25:25.000+09:00",
+      "url": "https://note.com/fusamofu326/n/n480909aaedfc",
+      "body_sha256": "a0243f5064653b45c66503ca358d4fa555b7e4e56aacf2fa42c04b012bbf1bf5",
+      "related_issues": [4, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "nd35d4e542c0f",
+      "title": "投資を煽るな、が生む沼 ── 投資アレルギーがリスクプーリングを焼却し白い墓をうむ",
+      "published_at": "2026-08-05T09:34:46.000+09:00",
+      "url": "https://note.com/fusamofu326/n/nd35d4e542c0f",
+      "body_sha256": "6b54e8baba7c8d2e2fda884513621c97a5688c9d0a6f4380e15c3d6a4be4ff63",
+      "related_issues": [2, 3, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "n7909c6ad3d27",
+      "title": "エッジAI時代のSaaS AIの優位性について ── 優劣ではなくポジションどりで、プラスサムへ",
+      "published_at": "2026-08-07T16:19:45.000+09:00",
+      "url": "https://note.com/fusamofu326/n/n7909c6ad3d27",
+      "body_sha256": "073c1c77a8ab885c55377fcbefe1d3858b8a93a1bbfc6b99d3714f241f6a2ccd",
+      "related_issues": [4, 6],
+      "evidence_relation": "direct-and-composite"
+    },
+    {
+      "key": "ne5c253d54c90",
+      "title": "creditとvalueと無限責任から見る「人間とは？」",
+      "published_at": "2026-08-08T01:38:17.000+09:00",
+      "url": "https://note.com/fusamofu326/n/ne5c253d54c90",
+      "body_sha256": "d60c22757e181ea1aa97fc16bf903cd5279f62e302b8cebba7e27ecb20a1ecfb",
+      "related_issues": [6],
+      "evidence_relation": "direct"
+    },
+    {
+      "key": "ne6a6c69179b9",
+      "title": "言霊と形而上学を軽視する工学コミュニケーションがモラルハザードを生む",
+      "published_at": "2026-08-21T14:04:10.000+09:00",
+      "url": "https://note.com/fusamofu326/n/ne6a6c69179b9",
+      "body_sha256": "0091dd27ea5d9662b93acd8dfee653a6b88973356fa5f266ef1074035dca146c",
+      "related_issues": [6],
+      "evidence_relation": "direct"
+    },
+    {
+      "key": "na6f83c902df2",
+      "title": "推奨火力より少ない火力トークン量で効率よく高難度を解かせる ── SphereOS-Atlantis DOSが引き出す、財布(と地球）に優しいAIエンジニアリング",
+      "published_at": "2026-08-27T23:57:27.000+09:00",
+      "url": "https://note.com/fusamofu326/n/na6f83c902df2",
+      "body_sha256": "af919dfb5df596aff8600ea26b19a6f2a1743ded4ef49a0595cab56d3c7ea2d2",
+      "related_issues": [3, 4],
+      "evidence_relation": "direct-and-composite"
+    }
+  ]
+}

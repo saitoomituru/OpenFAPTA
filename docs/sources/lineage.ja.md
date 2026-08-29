@@ -15,6 +15,10 @@
 
 記事本文は本リポジトリーへ複製しない。リンク先の権利と公開状態が優先する。
 
+Issue #1〜#6との対応、関連14記事の要約、取得時fingerprint、全文バックアップの境界は
+[`note-issue-mining-map.ja.md`](note-issue-mining-map.ja.md)と
+[`references/note-mining-index.json`](../../references/note-mining-index.json)へ分離した。
+
 ## 実験記録の型
 
 - OpenSourcePITETO: https://github.com/saitoomituru/OpenSourcePITETO

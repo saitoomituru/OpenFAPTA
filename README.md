@@ -99,6 +99,10 @@ PYTHONPATH=src python3 -m openfapta.cli --model all
 - [`src/openfapta/`](src/openfapta/): Pythonトイモデル
 - [`docs/sources/`](docs/sources/): Note、Manifest、実装の出典と来歴
 
+公開NoteとIssue #1〜#6の根拠対応は
+[`docs/sources/note-issue-mining-map.ja.md`](docs/sources/note-issue-mining-map.ja.md)にあります。
+本文を転載せず、要約・正準URL・取得時fingerprintを索引バックアップとして保持します。
+
 ## 系譜
 
 実験記録の型はOpenSourcePITETO、未知と来歴の保持はKUMA800、Meaning／Vessel／Bridge／Supplyと
