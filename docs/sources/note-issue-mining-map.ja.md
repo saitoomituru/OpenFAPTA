@@ -74,55 +74,55 @@ Noteは著者の思想・提案・実験談を確認する一次資料だが、�
 
 ### 経済設計三部作
 
-- [第1回「この地球、いつの間にPvPになってね？」](https://note.com/fusamofu326/n/nbc4d3e3d266d)  
+- [第1回「この地球、いつの間にPvPになってね？」](https://note.com/fusamofu326/n/nbc4d3e3d266d)
   有限資源と希少性を対人奪取へ接続した貨幣設計を、PvEからPvPへの変質として読む。未来potentialを測る
   別の価値系が必要だという入口。
-- [第2回「貨幣は情報の死体である」](https://note.com/fusamofu326/n/na0f3f8a3bd2d)  
+- [第2回「貨幣は情報の死体である」](https://note.com/fusamofu326/n/na0f3f8a3bd2d)
   FIATを過去の因果記録、Mind Pointを未観測の未来potential・共鳴・流動を扱う提案として分ける。
   地方知や未商品化の着想が会計上ゼロでも価値不存在ではないとする。
-- [第3回「たった一行でSDGsを半分殴り倒す」](https://note.com/fusamofu326/n/nc5bd7119cf8e)  
+- [第3回「たった一行でSDGsを半分殴り倒す」](https://note.com/fusamofu326/n/nc5bd7119cf8e)
   FAPTAを価値発生前のfactor設計として提示し、多様性・探索余地・地域文化をcostではなくresource候補へ
   置き直す。共通protocolと多様な実装、単一指標最適化のSPOFを論じる。
 
 ### 資源、循環、競争機会
 
-- [12年前のガラクタで、AI研究所を作った話](https://note.com/fusamofu326/n/n9698c6259109)  
+- [12年前のガラクタで、AI研究所を作った話](https://note.com/fusamofu326/n/n9698c6259109)
   廃棄候補に見える旧式PCをlocal AI基盤へ再接続した実験談。同じ物理対象の価値がtransformer、用途、
   場所、privacy要件によって変わるため、Issue #1、#4、#5の最も直接的な反例資料になる。
-- [マリオカートツアーのゲーム理論で見る競争社会と福祉講座](https://note.com/fusamofu326/n/n355d83cfd36f)  
+- [マリオカートツアーのゲーム理論で見る競争社会と福祉講座](https://note.com/fusamofu326/n/n355d83cfd36f)
   結果平等ではなく、再試行・再参加・アイテム取得機会を供給し続ける設計を論じる。競争機会、資源総量、
   制度的封鎖、リスポーン能力を別々に見る入口。
-- [天岩戸が毎日起きる家から見る世界史](https://note.com/fusamofu326/n/n1bda68a016e2)  
+- [天岩戸が毎日起きる家から見る世界史](https://note.com/fusamofu326/n/n1bda68a016e2)
   贈与・循環・非蓄積を現代OSSへ写像し、閉じた市場、信用、契約、制度維持costを扱う。循環を貧困や
   無価値へ還元しない文化・関係面の資料。
-- [第1講「数とは何か——宇宙記述言語の系譜」](https://note.com/fusamofu326/n/nfc160cfbd0d2)  
+- [第1講「数とは何か——宇宙記述言語の系譜」](https://note.com/fusamofu326/n/nfc160cfbd0d2)
   狩場・農作・季節の周期管理、身体知、土地との関係を、現代数理との翻訳可能性を保ちながら扱う。
   記述されていない知識を不存在とせず、周期資源の観測候補を出す。
 
 ### 探索capacityと役割配置
 
-- [SphereOS-Atlantis DOSが引き出すAIエンジニアリング](https://note.com/fusamofu326/n/na6f83c902df2)  
+- [SphereOS-Atlantis DOSが引き出すAIエンジニアリング](https://note.com/fusamofu326/n/na6f83c902df2)
   token予算、作業時間、共有文脈、checkpoint、既存資源探索を通じ、同じ財布でも到達可能な仕事を変える
   実験報告。実装状態の正確な資格はAtlantis側receiptを優先する。
-- [投資を煽るな、が生む沼](https://note.com/fusamofu326/n/nd35d4e542c0f)  
+- [投資を煽るな、が生む沼](https://note.com/fusamofu326/n/nd35d4e542c0f)
   未知riskを消す装置としてのpoolを焼くと、riskが弱い末端へ濃縮するという仮説。資本、信用、制度能力、
   退出可能性が探索参加条件を変える資料。
-- [エッジAI時代のSaaS AIの優位性について](https://note.com/fusamofu326/n/n7909c6ad3d27)  
+- [エッジAI時代のSaaS AIの優位性について](https://note.com/fusamofu326/n/n7909c6ad3d27)
   edgeとSaaSを勝敗ではなく異なる責務・観測規模・責任routingとして配置する。同一技術の価値が
   UseContextと主体配置で変わる例。
 
 ### Agency、意味、人間接続
 
-- [creditとvalueと無限責任から見る「人間とは？」](https://note.com/fusamofu326/n/ne5c253d54c90)  
+- [creditとvalueと無限責任から見る「人間とは？」](https://note.com/fusamofu326/n/ne5c253d54c90)
   creditとvalue、主体と観測者、個人のcommitと抽象構造を分ける。意味・意図・文脈・Agencyを別主体が
   展開するFoldとして扱い、人格や来歴を匿名commodityへ潰さない。
-- [言霊と形而上学を軽視する工学コミュニケーション](https://note.com/fusamofu326/n/ne6a6c69179b9)  
+- [言霊と形而上学を軽視する工学コミュニケーション](https://note.com/fusamofu326/n/ne6a6c69179b9)
   工学は人間へ接続した時点で、言葉、UI、誤読、体験、責任配置まで射程に入るとする。機能達成だけを
   total valueとしないIssue #6の直接資料。
-- [最強単一モデルでクソUXより](https://note.com/fusamofu326/n/n480909aaedfc)  
+- [最強単一モデルでクソUXより](https://note.com/fusamofu326/n/n480909aaedfc)
   単一AIではなく、人間・複数agent・身体・環境・actuatorの相互作用と文脈保持を単位にする。
   一人称やAgencyを組織riskの一般論へ誤変換する危険を扱う。
-- [「量子」という言葉は盗まれた](https://note.com/fusamofu326/n/nccf10b72d6a0)  
+- [「量子」という言葉は盗まれた](https://note.com/fusamofu326/n/nccf10b72d6a0)
   物理量子、量子inspired、情報子を分け、形而上学的な意味や主観を物理実証へ偽装せず工学対象として
   保持する境界を提案する。
 
