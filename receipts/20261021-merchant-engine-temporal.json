@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "observation_mode": "current-interpretation-of-history",
+  "observed_at": "2026-10-21T04:45:33.650Z",
+  "historical_oae_status": "historical-oae-unavailable",
+  "historical_oae_ref": null,
+  "historical_role_attribution": "none",
+  "retroactive_backfill": false,
+  "same_worldline_mutation": false,
+  "claims_physical_time_travel": false,
+  "last_order": {
+    "code": "OAE-HISTORY-UNKNOWN",
+    "action": "stop-retroactive-backfill"
+  }
+}
