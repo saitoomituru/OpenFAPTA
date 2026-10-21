@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "openfapta"
 version = "0.1.0"
-description = "FAPTA philosophy and mathematical toy experiments"
+description = "Open credit-creation merchant-engine research for recovery potential and exploration-frontier portfolios"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
-authors = [{name = "齋藤みつる / saitoomituru"}]
+authors = [{name = "齋藤みつるSaitooMituru-Fusamofu-ふさもふ"}]
+keywords = ["openfapta", "merchant-engine", "credit-creation", "frontier-exploration", "portfolio-management", "commons", "topology", "resource-allocation", "toy-model"]
 dependencies = []
 
 [project.scripts]

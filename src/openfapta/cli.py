@@ -96,7 +96,7 @@ def build_parser() -> argparse.ArgumentParser:
     """CLI引数解析器を作る。"""
 
     parser = argparse.ArgumentParser(
-        description="OpenFAPTAの哲学・数理境界を試すトイモデル"
+        description="OpenFAPTAの回収可能性・探索境界を試すマーチャントエンジン研究用トイモデル"
     )
     parser.add_argument(
         "--model",

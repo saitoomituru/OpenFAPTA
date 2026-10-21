@@ -4,11 +4,26 @@
 > 未知で危ないから、未来のbenefitまで焼くな。  
 > 信じたから物理的に成功したことにもするな。掘りに行った記録を残せ。
 
-OpenFAPTAは、FIAT、信仰、贈与、循環資源、探索空間、民の実行力を分離して調べる、
-哲学実験と数理トイモデルの公開リポジトリーです。
+**OpenFAPTAは、回収可能性と未知コモンズの探索余地を発見・試行・再評価する、オープン信用創造・汎用マーチャントエンジンです。**
+
+通貨発行母体や信用供与主体が、どのFoldをどう接続し、どんな面積測度・評価単位で未来の回収可能性を組むかを設計します。未知コモンズ、探索フロンティア、ボラティリティ、他Foldの資源関係をM次元ポートフォリオとして扱う構想です。個人・組織・共同体・発行母体へ同じ構成原理を展開するフラクタル設計を目指します。
+
+日本語正本 / [English reference manuscript](README.en-US.md)
 
 FAPTAは **Fold Autonomous Potential Transaction Architecture** の略です。
-完成した通貨、投資商品、政策、物理法則ではありません。現在は`EXPERIMENTAL / TOY MODEL`です。
+現在のcodeは`EXPERIMENTAL / TOY MODEL`。資源の利用条件、未知benefit、期待・試行・観測・Last Orderを動かすPythonモデルがあります。汎用M次元チャート、永続的なリトライ管理、外部通貨adapterは設計・実装課題です。
+
+## 発見して、試して、探索余地を更新する
+
+回収候補を発見・登録し、実際に試し、条件を変えてリトライする。未知を埋めるだけでなく、新しい未知や探索フロンティアを発見し、次の与信判断へ戻します。未来予測だけでなく、どの未来を試せるかを扱うポートフォリオ管理です。
+
+- 広いフロンティアと大きいボラ、安定回収と薄い髭を別々に読む。
+- 他Foldの資源消耗による増加と、評価scope全体のプラスサム候補を区別する。
+- 利用者が政治思想・通貨発行思想に応じてFold、トポロジー、面積測度、単位、配分policyを選ぶ。
+- 交換単位、通貨発行・残高、決済、帳簿は外部実装へ接続する。暗号通貨、ステーブルコイン、商品券、ポイント等の選択をengineへ固定しない。
+
+面積の評価単位と交換単位は別です。`ledger` CLIは台帳可視性のtoyであり、分散台帳engineではありません。
+定義、構成例、現在の実装対応、次の比較実験は[マーチャントエンジン設計](docs/theory/merchant-engine.ja.md) / [en-US](docs/theory/merchant-engine.en-US.md)を参照してください。
 
 ## 問題設定
 
@@ -87,7 +102,7 @@ EXPECTATION_HI_Z -> MINING -> OBSERVED
 ## 実行
 
 ```console
-python3 -m unittest discover -s tests -v
+PYTHONPATH=src python3 -m unittest discover -s tests -v
 PYTHONPATH=src python3 -m openfapta.cli --model all
 ```
 
@@ -122,4 +137,4 @@ Manifest、MAGI Skill、SphereOS Atlantis DOS、OpenSourcePITETO、KUMA800の固
 - README、文書、哲学、実験文脈: [CC BY 4.0](LICENSE-CONTEXT.md)
 - 第三者資料: 出典元の条件を維持。本リポジトリーのライセンスへ自動再許諾しません
 
-Copyright 2026 齋藤みつる / saitoomituru
+Copyright 2026 齋藤みつるSaitooMituru-Fusamofu-ふさもふ

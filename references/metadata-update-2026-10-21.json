@@ -1,0 +1,57 @@
+{
+  "schema": "openfapta-metadata-update/1",
+  "date": "2026-10-21",
+  "repository": "saitoomituru/OpenFAPTA",
+  "authority": "作者による本会話の文書・description・tag更新指示",
+  "before": {
+    "description": "FIAT・信仰・未知benefit・探索空間を分離して試す哲学実験と数理トイモデル",
+    "topics": [
+      "experimental",
+      "fapta",
+      "fiat",
+      "gift-economy",
+      "infoton-engineering",
+      "openfapta",
+      "philosophy",
+      "python",
+      "resource-allocation",
+      "toy-model",
+      "zeroroomlab"
+    ]
+  },
+  "after": {
+    "description": "未知コモンズと回収可能性を探索・再評価する、トポロジー／評価単位自由の信用創造・汎用マーチャントエンジン。M次元ポートフォリオを設計し、通貨・交換単位・決済台帳は外部実装へ接続。現行はPythonトイモデル。",
+    "topics": [
+      "commons",
+      "credit-creation",
+      "credit-engine",
+      "experimental",
+      "fapta",
+      "fiat",
+      "frontier-exploration",
+      "gift-economy",
+      "infoton-engineering",
+      "merchant-engine",
+      "openfapta",
+      "philosophy",
+      "portfolio-management",
+      "python",
+      "resource-allocation",
+      "topology",
+      "toy-model",
+      "zeroroomlab"
+    ]
+  },
+  "verification": "SAVED_AND_READ_BACK",
+  "verified_at": "2026-10-21T04:37:27.007Z",
+  "related_repositories": [
+    {
+      "repository": "saitoomituru/ZeroRoomLab-manifest",
+      "change": "OpenFAPTAに言及するREADME・FAOC mapの要約と正本リンクのみ。repository全体のdescription/topicsは変更しない。"
+    },
+    {
+      "repository": "HIPSTAR-IScompany/quantaril_cloud_QAtlantis",
+      "change": "プロジェクトファプタの現行紹介とen-US参照写本。投稿アーカイブは保持。"
+    }
+  ]
+}

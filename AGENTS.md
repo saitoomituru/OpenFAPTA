@@ -1,7 +1,10 @@
 # AGENTS.md — OpenFAPTA
 
-このリポジトリーは、FAPTA（Fold Autonomous Potential Transaction Architecture）を、
-哲学実験、数理トイモデル、地域資源観測へ分けて試す公開研究棚です。
+このリポジトリーは、FAPTA（Fold Autonomous Potential Transaction Architecture）の
+回収可能性・探索フロンティアを扱う信用創造・汎用マーチャントエンジンを研究する公開実装棚です。
+日本語の責務正本は`docs/theory/merchant-engine.ja.md`。現在のPython codeは境界を試すトイモデルです。
+M次元ポートフォリオ・面積測度・トポロジー自由の設計と、実装済み能力を分けて記述します。
+交換単位、通貨・残高・決済・分散台帳は外部責務です。CLIの`ledger`を台帳製品と説明しません。
 
 ## 原初目的
 
@@ -83,7 +86,7 @@ processed data  != new observation
 - 標準ライブラリーを既定とし、新規依存には理由を記録する
 - 型ヒントと日本語docstringを付ける
 - `print`はCLI出力だけに限定する
-- testは`python3 -m unittest discover -s tests -v`
+- testは`PYTHONPATH=src python3 -m unittest discover -s tests -v`
 - 外部参照表は`python3 scripts/validate_source_map.py`で構造検査する
 - 公開Note索引は`python3 scripts/validate_note_index.py`で構造検査する
 
