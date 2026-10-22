@@ -20,6 +20,10 @@ Exchange units, currency issuance and balances, payments, and accounting or dist
 
 See the [Japanese design](docs/theory/merchant-engine.ja.md) and [en-US reference manuscript](docs/theory/merchant-engine.en-US.md) for definitions, the responsibility matrix, and proposed comparison fixtures.
 
+## CVE repair-market policy case
+
+A proposed broad catastrophe pool would absorb defined ruinous cyber losses while private insurers, SI providers, and OSS maintainers compete on paid remediation, response time, and additional coverage. See the [Japanese canonical case](docs/theory/cve-repair-market-tail-risk.ja.md) and [en-US reference](docs/theory/cve-repair-market-tail-risk.en-US.md). CVE identifies vulnerabilities; it does not itself underwrite insurance or pay bounties. [Lobbying issue #56](https://github.com/saitoomituru/ZeroRoomLab-manifest/issues/56) tracks the proposed outreach.
+
 ## Current implementation
 
 Status: `EXPERIMENTAL / TOY MODEL`. Standard-library Python models currently cover:
