@@ -25,6 +25,10 @@ FAPTAは **Fold Autonomous Potential Transaction Architecture** の略です。
 面積の評価単位と交換単位は別です。`ledger` CLIは台帳可視性のtoyであり、分散台帳engineではありません。
 定義、構成例、現在の実装対応、次の比較実験は[マーチャントエンジン設計](docs/theory/merchant-engine.ja.md) / [en-US](docs/theory/merchant-engine.en-US.md)を参照してください。
 
+## CVE修復市場の政策設計例
+
+巨大な金銭テールを広域プールで吸収し、民間保険・SIer・OSS研究者が修復速度と保障を競争するという設計仮説を[日本語正本](docs/theory/cve-repair-market-tail-risk.ja.md) / [en-US](docs/theory/cve-repair-market-tail-risk.en-US.md)に追加。CVEは共通識別子であり賞金・保険実装ではありません。[ManifestのロビーIssue #56](https://github.com/saitoomituru/ZeroRoomLab-manifest/issues/56)で対外提案を追跡します。
+
 ## 問題設定
 
 税金で委託された清掃には予算、契約、領収、労務時間が残ります。信仰から神社のゴミを拾った民にも
